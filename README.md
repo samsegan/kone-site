@@ -28,7 +28,7 @@ Taken from K.ONE's own pictures instead of the reference's black, bone and red:
 | Powder blue `#b7c9e1` | the studio wall, the "Go (Fear No One)" star |
 
 The four-point star is the one in K.ONE's Instagram name line; the mark
-"K ✦ 1" is from the bio line "K - 1". Type is Times New Roman and Arial, as on
+"K ✦ ONE" is the name with that star in place of the dot. Type is Times New Roman and Arial, as on
 the reference (both are system fonts, nothing is loaded).
 
 ## What is on the page
