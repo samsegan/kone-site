@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>K.ONE</title>
+<meta name="description" content="K.ONE. New York producer and DJ: trance, garage and club records. Music, the next show, unreleased IDs and contact.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="K.ONE">
+<meta property="og:description" content="New York producer and DJ: trance, garage and club records.">
+<meta property="og:image" content="https://samsegan.github.io/kone-site/img/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#07090e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2307090e'/%3E%3Cpath d='M16 3c.9 8 5 12.1 13 13-8 .9-12.1 5-13 13-.9-8-5-12.1-13-13 8-.9 12.1-5 13-13z' fill='%233f6bff'/%3E%3C/svg%3E">
+<link rel="preload" as="image" href="img/hero.jpg" media="(min-width: 761px)">
+<link rel="preload" as="image" href="img/hero-m.jpg" media="(max-width: 760px)">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.className = 'js';</script>
+</head>
+<body>
+
+<a class="skip" href="#music">Skip to the music</a>
+
+<!-- opening: the name, a light passing over it, then the picture -->
+<div id="intro" aria-hidden="true"><p class="intro-name">K.ONE</p></div>
+
+<!-- top corners: the mark and the menu -->
+<header id="bar">
+  <a class="logo" href="#top" aria-label="K.ONE, back to the top"><span>K</span><i class="star"></i><span>1</span></a>
+  <button class="br menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="menu-word" data-open="Menu" data-close="Close">Menu</span><span class="menu-ic" aria-hidden="true"></span></button>
+</header>
+
+<nav id="menu" aria-label="Sections" hidden>
+  <ul class="menu-list">
+    <li><a href="#music"><em class="l">Releases &amp; edits</em><b>Music</b></a></li>
+    <li class="hot"><a href="#shows"><b>Tickets</b><em class="r" id="menu-shows">1 upcoming show</em></a></li>
+    <li><a href="#about" aria-label="About K.ONE"><em class="l">About K.ONE</em><b class="pillrow"><i class="star"></i>(<span class="pill"><img src="img/pill.jpg" alt="" width="420" height="381"></span>)</b></a></li>
+    <li><a href="#latest"><b>Latest</b><em class="r">Next single, filmed sets</em></a></li>
+    <li><a href="#unreleased"><em class="l">Not out yet</em><b>Unreleased</b></a></li>
+    <li><a href="#seen"><b>Seen</b><em class="r">Pictures</em></a></li>
+    <li><a href="#contact"><em class="l">Booking &amp; management</em><b>Contact</b></a></li>
+  </ul>
+  <p class="menu-foot"><span>( New York )</span><a href="mailto:hendrik@notoriously-good.com">(Email)</a></p>
+</nav>
+
+<main>
+
+<!-- ============ landing ============ -->
+<section class="hero" id="top">
+  <picture class="hero-pic">
+    <source media="(max-width: 760px)" srcset="img/hero-m.jpg" width="1100" height="1852">
+    <img src="img/hero.jpg" alt="K.ONE in a cobalt blue sweater and a cream cap, head down, one arm thrown out to the side" width="2000" height="1250" fetchpriority="high">
+  </picture>
+  <h1 class="vh">K.ONE</h1>
+  <ul class="plat" aria-label="Listen">
+    <li><a href="https://open.spotify.com/artist/4f15TpvwbbqszvGawHTMFt" target="_blank" rel="noopener" aria-label="Spotify"><span>Spo</span><span>tify</span><i class="ar dn"></i></a></li>
+    <li><a href="https://soundcloud.com/k-oneee" target="_blank" rel="noopener" aria-label="SoundCloud"><span>Sound</span><span>Cloud</span><i class="ar dn"></i></a></li>
+    <li><a href="https://music.apple.com/us/artist/k-one/1850394236" target="_blank" rel="noopener" aria-label="Apple Music"><span>Ap</span><span>ple</span><i class="ar dn"></i></a></li>
+    <li><a href="https://k1sounds.bandcamp.com/" target="_blank" rel="noopener" aria-label="Bandcamp"><span>Band</span><span>camp</span><i class="ar dn"></i></a></li>
+  </ul>
+  <button class="latest" type="button" data-play="with-me" aria-label="Play the latest release: WITH ME, by LILLE and K.ONE">
+    <span class="latest-top"><span>Out now</span><span><i class="star"></i>Latest</span></span>
+    <span class="latest-title">With<br>Me</span>
+    <span class="latest-by">LILLE &amp; K.ONE</span>
+    <img src="art/with-me.jpg" alt="" width="640" height="640">
+  </button>
+</section>
+
+<!-- ============ music ============ -->
+<section class="sec" id="music">
+  <div class="head">
+    <p class="tag">Music</p>
+    <h2 class="big"><span class="ln"><span>Turn The</span></span><span class="ln"><span>Music Louder</span></span></h2>
+    <div class="side rv">
+      <p>Trance, garage and club records out of New York. Every single, collab, edit and free download, newest first.</p>
+      <button class="br" id="more" type="button" aria-expanded="false" aria-controls="grid"><span id="more-word">View all</span><i class="ar dn"></i></button>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <noscript><p class="nojs">The full list is on <a href="https://soundcloud.com/k-oneee">SoundCloud</a> and <a href="https://open.spotify.com/artist/4f15TpvwbbqszvGawHTMFt">Spotify</a>.</p></noscript>
+</section>
+
+<!-- ============ the next show ============ -->
+<section class="sec" id="shows">
+  <div class="head">
+    <p class="tag">Tickets</p>
+    <h2 class="big"><span class="ln"><span>Next</span></span><span class="ln"><span>Night Out</span></span></h2>
+    <div class="side rv">
+      <p id="shows-line">Back in Brooklyn. Zone One with TWOFACED; Snakehips and L3Ni in the Hall.</p>
+    </div>
+  </div>
+
+  <article class="ticket rv" id="ticket" data-date="2026-11-21">
+    <div class="ticket-poster">
+      <div class="poster">
+        <img src="img/poster.jpg" alt="K.ONE against a powder blue wall" width="900" height="1200" loading="lazy">
+        <p class="poster-top">Elsewhere presents</p>
+        <p class="poster-name">K.ONE</p>
+        <p class="poster-foot"><b>Zone One</b><span>November 21st</span></p>
+      </div>
+    </div>
+    <div class="ticket-main">
+      <p class="ticket-status"><span class="tag plain">Tickets on sale</span><em id="ticket-when"></em></p>
+      <p class="ticket-date"><b>21</b><span><i>Nov</i><small>2026</small><em>Saturday</em></span></p>
+      <p class="ticket-city">Brooklyn<span>, NY</span></p>
+      <p class="ticket-venue"><span>Doors 10:30 PM · 21+ ·</span> Elsewhere, Zone One</p>
+      <p class="ticket-go">
+        <a class="br" href="https://www.eventbrite.com/e/snakehips-l3ni-twofaced-kone-anything-goes-tone-troy-more-tickets-1993478754618" target="_blank" rel="noopener">Buy tickets<i class="ar"></i></a>
+        <a class="plus" href="https://www.elsewhere.club/events/1993478754618" target="_blank" rel="noopener">Info <i>+</i></a>
+      </p>
+    </div>
+    <div class="ticket-stub" aria-hidden="true">
+      <span>Admit one</span>
+      <i class="barcode"></i>
+      <span>Brooklyn · 11/21/26</span>
+    </div>
+  </article>
+
+  <div class="noshow rv" id="noshow" hidden>
+    <p>No dates on sale right now.</p>
+    <a class="br" href="https://www.instagram.com/k.oneeeeee/" target="_blank" rel="noopener">New dates land on Instagram<i class="ar"></i></a>
+  </div>
+
+  <p class="earlier rv"><span>Earlier this fall, as posted</span> Philadelphia, Vinyl · Insomniac Radio, Lucid · Denver, The Church Nightclub · Orlando, EDC pre-party</p>
+</section>
+
+<!-- ============ about ============ -->
+<section class="sec" id="about">
+  <div class="head">
+    <p class="tag">About</p>
+    <h2 class="big"><span class="ln"><span>&ldquo;Trust The</span></span><span class="ln"><span>Process&rdquo;</span></span></h2>
+    <div class="side rv">
+      <p>K.ONE is a New York producer and DJ. It started with demos sent back and forth over SoundCloud messages; in October 2026 SoundCloud put that story on a billboard.</p>
+      <a class="br" href="https://www.instagram.com/k.oneeeeee/" target="_blank" rel="noopener">Instagram<i class="ar"></i></a>
+    </div>
+  </div>
+  <div class="cols">
+    <div class="col rv"><h3>New York</h3><p>Home</p><img src="img/cut-1.webp" alt="K.ONE mid-step in a blue long sleeve, grey shorts and a cream cap" width="552" height="991" loading="lazy"></div>
+    <div class="col rv"><h3>Trance</h3><p>Sound</p><img src="img/cut-2.webp" alt="K.ONE in the cobalt sweater, arm out, seen from above" width="556" height="1100" loading="lazy"></div>
+    <div class="col rv"><h3>Garage</h3><p>Sound</p><img src="img/cut-3.webp" alt="K.ONE in a striped polo, arms reaching forward" width="289" height="556" loading="lazy"></div>
+    <div class="col rv"><h3>298K</h3><p>Monthly listeners · Spotify, Nov 2026</p><img src="img/cut-4.webp" alt="K.ONE in a pale blue hoodie, hood up" width="679" height="1000" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- ============ pictures ============ -->
+<section class="sec seen" id="seen">
+  <div class="seen-side">
+    <p class="tag">Seen</p>
+    <h2 class="mid"><span class="ln"><span>Seen</span></span><span class="ln"><span>lately.</span></span></h2>
+    <p class="seen-p rv">Pictures from K.ONE&rsquo;s own posts: the booth, Los Angeles, a billboard or two.</p>
+    <a class="br rv" href="https://www.instagram.com/k.oneeeeee/" target="_blank" rel="noopener">More on Instagram<i class="ar"></i></a>
+    <p class="fine rv">Every picture here comes from K.ONE&rsquo;s public profiles.</p>
+  </div>
+  <div class="seen-wall">
+    <figure class="feat rv"><img src="img/g-silo.jpg" alt="Two DJs at the decks under red light, hands up in the crowd around them" width="1500" height="1290" loading="lazy"><figcaption><span class="tag plain">From the SILO recap</span><b>at SILO</b></figcaption></figure>
+    <div class="wall">
+      <img class="rv" src="img/g-la.jpg" alt="Downtown towers under a hard sun, seen from a rooftop" width="900" height="1200" loading="lazy">
+      <img class="rv" src="img/g-square-bw.jpg" alt="A SoundCloud billboard over a city square, in black and white" width="900" height="960" loading="lazy">
+      <img class="rv" src="img/g-decks.jpg" alt="Two signed instant photos lying on a DJ deck" width="900" height="1200" loading="lazy">
+      <img class="rv" src="img/g-radio.jpg" alt="Behind the decks at a radio studio, an On Air sign lit" width="900" height="1200" loading="lazy">
+      <img class="rv" src="img/g-board.jpg" alt="A billboard against an evening sky, palm trees below" width="900" height="1200" loading="lazy">
+      <img class="rv" src="img/g-rest.jpg" alt="K.ONE lying back, a cap over the eyes" width="900" height="1200" loading="lazy">
+      <img class="rv" src="img/g-lille.jpg" alt="K.ONE and LILLE in front of a painted shutter" width="900" height="1200" loading="lazy">
+      <img class="rv" src="img/g-square.jpg" alt="The same billboard in colour, the square busy below" width="900" height="1200" loading="lazy">
+      <img class="rv" src="img/g-mirror.jpg" alt="A dressing room mirror ringed with bulbs" width="900" height="1200" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ unreleased ============ -->
+<section class="sec" id="unreleased">
+  <div class="head">
+    <p class="tag">Unreleased</p>
+    <h2 class="big"><span class="ln"><span>Not Out</span></span><span class="ln"><span>Yet</span></span></h2>
+    <div class="side rv">
+      <p>Some records only exist in the sets so far. Hold the button to see what has been played, and where to hear it.</p>
+    </div>
+  </div>
+  <div class="scatter" id="scatter">
+    <div class="hold">
+      <button class="br hold-btn" id="hold" type="button" aria-pressed="false"><i class="lock" aria-hidden="true"></i><span id="hold-word">Hold to unlock</span><span class="hold-fill" aria-hidden="true"></span></button>
+      <p class="fine" id="hold-note">For the ones who ask for the ID</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ contact ============ -->
+<section class="sec contact" id="contact">
+  <div class="contact-l">
+    <p class="tag">Contact</p>
+    <h2 class="mid"><span class="ln"><span>Get In</span></span><span class="ln"><span>Touch!</span></span></h2>
+    <p class="contact-sub rv">Every booking begins with a message.</p>
+    <p class="mini rv">What&rsquo;s it about?</p>
+    <div class="topics rv" role="radiogroup" aria-label="What is it about?">
+      <button type="button" role="radio" aria-checked="true" data-topic="booking"><i class="box"></i><small>01</small>Booking a show</button>
+      <button type="button" role="radio" aria-checked="false" data-topic="ausnz"><i class="box"></i><small>02</small>Australia &amp; New Zealand</button>
+      <button type="button" role="radio" aria-checked="false" data-topic="press"><i class="box"></i><small>03</small>Press &amp; releases</button>
+      <button type="button" role="radio" aria-checked="false" data-topic="hi"><i class="box"></i><small>04</small>Just saying hi</button>
+    </div>
+    <p class="pick rv"><i class="star"></i>Pick a topic to see who reads it and how to reach them.</p>
+  </div>
+  <div class="contact-r rv" aria-live="polite">
+    <h3>Write to</h3>
+    <p class="field"><span>[Who reads it]</span><b id="c-who">Management</b></p>
+    <p class="field"><span>[Address]</span><a id="c-addr" href="mailto:hendrik@notoriously-good.com">hendrik@notoriously-good.com</a></p>
+    <p class="field tall"><span>[Good to say]</span><b id="c-say">The date, the city, the room and the offer.</b></p>
+    <p class="contact-go">
+      <button class="br" id="c-copy" type="button"><span id="c-copy-word">Copy address</span></button>
+      <a class="br" id="c-open" href="mailto:hendrik@notoriously-good.com"><span id="c-open-word">Open mail</span><i class="ar"></i></a>
+    </p>
+  </div>
+</section>
+
+<!-- ============ latest ============ -->
+<section class="sec" id="latest">
+  <div class="head">
+    <p class="tag">Latest</p>
+    <h2 class="big"><span class="ln"><span>New &amp;</span></span><span class="ln"><span>Next</span></span></h2>
+    <div class="side rv">
+      <p>From the studio and the booth: the next single and two sets on film.</p>
+      <a class="br" href="https://www.youtube.com/@K.ONEEEEEE" target="_blank" rel="noopener">YouTube<i class="ar"></i></a>
+    </div>
+  </div>
+  <div class="news">
+    <a class="item rv" href="https://lnk.to/K.ONE-FallingForYouDeeper" target="_blank" rel="noopener">
+      <span class="item-pic sq"><img src="art/falling-for-you-deeper.jpg" alt="Sun breaking over forested hills: the cover of Falling For You (Deeper)" width="900" height="900" loading="lazy"></span>
+      <span class="tag plain">Next single <i>Pre-save open</i></span>
+      <b>&ldquo;Falling For You (Deeper)&rdquo; with Gaby Gerlis</b>
+      <span class="go">Pre-save<i class="ar"></i></span>
+    </a>
+    <a class="item rv" href="https://youtu.be/FzH1k_Nl-qk" target="_blank" rel="noopener">
+      <span class="item-pic"><img src="img/set-scholes.jpg" alt="K.ONE at the decks in a warehouse room, the crowd behind" width="640" height="360" loading="lazy"></span>
+      <span class="tag plain">Set <i>On film</i></span>
+      <b>K.ONE at 314 Scholes, NOTION&rsquo;s Brooklyn pop-up</b>
+      <span class="go">Watch<i class="ar"></i></span>
+    </a>
+    <a class="item rv" href="https://www.youtube.com/watch?v=hb3pTfoUyR4" target="_blank" rel="noopener">
+      <span class="item-pic"><img src="img/set-clubhouse.jpg" alt="K.ONE and Gusta behind four decks at Clubhouse FM" width="960" height="540" loading="lazy"></span>
+      <span class="tag plain">Set <i>On film</i></span>
+      <b>K.ONE b2b Gusta, live from the Clubhouse</b>
+      <span class="go">Watch<i class="ar"></i></span>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ the end ============ -->
+<footer id="foot">
+  <div class="pulse" aria-hidden="true">
+    <svg viewBox="0 0 1440 40" preserveAspectRatio="none"><path d="M0 20H598l6-3 7 5 7-12 8 21 8-28 8 30 7-19 7 9 6-3h96l6-3 7 5 7-12 8 21 8-28 8 30 7-19 7 9 6-3H1440" fill="none" vector-effect="non-scaling-stroke"/></svg>
+    <i></i>
+  </div>
+  <div class="foot-grid">
+    <div class="foot-mark">
+      <a class="logo big" href="#top" aria-label="K.ONE, back to the top"><span>K</span><i class="star"></i><span>1</span></a>
+      <p>Trance, garage and club records. New York.</p>
+      <a class="br sm" href="#top">Back to top<i class="ar up"></i></a>
+    </div>
+    <nav class="foot-nav" aria-label="Side A">
+      <p class="mini">Side A</p>
+      <a href="#music"><small>01</small>Music<i class="ar"></i></a>
+      <a href="#shows"><small>02</small>Tickets<i class="ar"></i></a>
+      <a href="#about"><small>03</small>About<i class="ar"></i></a>
+      <a href="#seen"><small>04</small>Seen<i class="ar"></i></a>
+    </nav>
+    <nav class="foot-nav" aria-label="Side B">
+      <p class="mini">Side B</p>
+      <a href="#unreleased"><small>05</small>Unreleased<i class="ar"></i></a>
+      <a href="#contact"><small>06</small>Contact<i class="ar"></i></a>
+      <a href="#latest"><small>07</small>Latest<i class="ar"></i></a>
+      <a href="https://linktr.ee/iamk1" target="_blank" rel="noopener"><small>08</small>All links<i class="ar"></i></a>
+    </nav>
+    <div class="foot-side">
+      <p class="tag plain" id="foot-show-tag">Next show</p>
+      <a class="foot-date" id="foot-show" href="#shows"><b>21.Nov</b><span>Brooklyn<i class="ar"></i></span></a>
+      <p class="mini">Listen</p>
+      <p class="foot-links"><a href="https://open.spotify.com/artist/4f15TpvwbbqszvGawHTMFt" target="_blank" rel="noopener">Spotify</a><a href="https://soundcloud.com/k-oneee" target="_blank" rel="noopener">SoundCloud</a><a href="https://music.apple.com/us/artist/k-one/1850394236" target="_blank" rel="noopener">Apple Music</a><a href="https://k1sounds.bandcamp.com/" target="_blank" rel="noopener">Bandcamp</a></p>
+      <p class="mini">Follow</p>
+      <p class="foot-links"><a href="https://www.instagram.com/k.oneeeeee/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@k1.wav" target="_blank" rel="noopener">TikTok</a><a href="https://www.youtube.com/@K.ONEEEEEE" target="_blank" rel="noopener">YouTube</a></p>
+    </div>
+  </div>
+  <div class="foot-end">
+    <p><i class="barcode sm" aria-hidden="true"></i>Preview build, not yet official. Music, photos and artwork belong to K.ONE and their makers.</p>
+    <p><a href="mailto:hendrik@notoriously-good.com">Management</a><a href="mailto:fraser@m87.au">Australia &amp; New Zealand</a></p>
+  </div>
+</footer>
+
+<!-- player, wide screens -->
+<div class="dock" id="dock" hidden>
+  <img class="dock-art" id="dock-art" src="" alt="" width="40" height="40">
+  <button class="dock-play paused" id="dock-play" type="button" aria-label="Play or pause"><span class="ic-play">Play</span><span class="ic-pause">Pause</span></button>
+  <p class="dock-title" id="dock-title"></p>
+  <div class="dock-bar" id="dock-bar" role="slider" aria-label="Position in the track" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><span id="dock-fill"></span></div>
+  <p class="dock-time" id="dock-time"></p>
+  <a class="dock-out" id="dock-out" href="#" target="_blank" rel="noopener">SoundCloud</a>
+  <button class="dock-close" id="dock-close" type="button">Close</button>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
