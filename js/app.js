@@ -1,4 +1,4 @@
-/* K.ONE: artist site preview. Plain JavaScript, no libraries. */
+/* K.ONE: artist site. Plain JavaScript, no libraries. */
 (() => {
   const D = window.KONE || { records: [], unreleased: [] };
   const $ = (s, r = document) => r.querySelector(s);

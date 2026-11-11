@@ -1,6 +1,6 @@
-# K.ONE: artist site (preview)
+# K.ONE: artist site
 
-A work-in-progress artist site for K.ONE (New York producer and DJ), laid out
+The artist site for K.ONE (New York producer and DJ), laid out
 after [alexandracapitanescu.com](https://alexandracapitanescu.com/): the name
 with a light passing over it, then a full-screen picture with the listening
 links set in large serif capitals (a gap inside each word) and a "latest" card;
@@ -11,10 +11,11 @@ pictures beside a title that stays put; tilted, out-of-focus cards you unlock by
 holding a button; a contact screen where you pick a topic and see who reads it;
 and a footer with a pulse line and "Side A / Side B" lists.
 
-Live preview: https://samsegan.github.io/kone-site/
-
-The page carries a `noindex` tag and a "Preview build, not yet official" line
-until K.ONE signs off on it.
+Live: https://k-one.world/ (version 1, 11 November 2026). Published with
+`tools/publish_cloudflare.sh` (a Cloudflare Worker named `kone-site` that only
+serves these files). The same files are also served by GitHub Pages at
+https://samsegan.github.io/kone-site/ on every push to `main`; the page names
+k-one.world as its real address.
 
 ## Colours
 
@@ -63,6 +64,7 @@ Plain HTML, CSS and JavaScript. No framework, no build step for the page.
 | `art/`, `img/` | Cover art, photos |
 | `tools/build.py` | Rebuilds `js/data.js`, and the pictures from the originals |
 | `tools/cutout.swift` | Cuts a person out of a photo (Apple Vision), for the About figures |
+| `tools/publish_cloudflare.sh` | Publishes to k-one.world; with a name, a preview address only |
 
 ## Changing things
 
@@ -110,8 +112,7 @@ the top of the contact part of `js/app.js`).
 - Unreleased titles and times: Clubhouse FM's post about the K.ONE b2b Gusta
   livestream. Next single: the pre-save page in K.ONE's Instagram bio.
 - "Trust the process", "Turn the music louder": K.ONE's own captions.
-- Photos: K.ONE's profile pictures and posts. They need K.ONE's OK before the
-  site is made official.
+- Photos: K.ONE's profile pictures and posts.
 
 ## Preview locally
 
